@@ -40,6 +40,31 @@ LASMA is designed for medical augmentation settings where:
 The pseudo-lesion mask is used as a conservative deformation constraint, not as
 a clinically validated lesion segmentation.
 
+## Dataset
+
+The datasets used in the paper can be downloaded from:
+
+- OCTDL: [data.mendeley.com/datasets/sncdhf53xc/4](https://data.mendeley.com/datasets/sncdhf53xc/4)
+- Srinivasan 2014 OCT: [people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm)
+
+After downloading, organize the dataset as:
+
+```text
+dataset_root/
+  train/
+    class_1/
+    class_2/
+  val/
+    class_1/
+    class_2/
+  test/
+    class_1/
+    class_2/
+```
+
+Then set `LASMA_DATA_ROOT` to `dataset_root`, or edit `DATA_ROOT` in
+`lasma_config.py`.
+
 ## Repository Contents
 
 This folder contains the clean core implementation:
