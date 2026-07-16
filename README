@@ -1,4 +1,4 @@
-# LASMA: Lesion-Anatomy Specific Manifold Augmentation
+#LASMA: Lesion-Anatomy Specific Manifold Augmentation
 
 LASMA is a lesion-aware data augmentation framework for retinal OCT image
 classification. The central idea is simple: **medical images should not be
