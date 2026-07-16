@@ -1,0 +1,17 @@
+# LASMA_core dependencies
+# Tested on Python 3.8+, CUDA 11.x
+
+# Core
+numpy>=1.21.0
+opencv-python>=4.5.0
+scipy>=1.7.0
+
+
+torchvision>=0.13.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Utilities
+tqdm>=4.60.0
+Pillow>=9.0.0
